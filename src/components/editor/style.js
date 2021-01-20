@@ -1,8 +1,11 @@
-:root {
-   /* Overrides the border radius setting in the theme. */
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  width: 100%;
+
+  
    --ck-border-radius: 4px;
 
-   /* Overrides the default font size in the theme. */
    --ck-font-size-base: .84rem;
 
    --ck-custom-background:#F8F9F9;
@@ -16,14 +19,15 @@
    --ck-color-toolbar-border: #A8C6DF;
    --ck-color-base-border: #A8C6DF;
 
+
    /* --ck-color-toolbar-border: transparent; */
-}
 
-:root .ck.ck-dropdown__panel{
-   --ck-color-text: #3F536E;
-}
+   & .ck.ck-dropdown__panel{ 
+      --ck-color-text: #3F536E;
+   }
 
-:root .ck-toolbar__separator{
-   --ck-spacing-small: 1rem;
-   --ck-color-toolbar-border: transparent;
-}
+   & .ck-toolbar__separator{
+      --ck-spacing-small: 1rem;
+      --ck-color-toolbar-border: transparent;
+   }
+`;

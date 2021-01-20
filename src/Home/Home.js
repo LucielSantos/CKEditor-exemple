@@ -4,7 +4,8 @@ import { EditorComponent } from '../components';
 
 import { Container, EditorContainer, Body, OutputTitle, OutputContainer } from './style'
 
-import './editorStyle.css';
+import './contentEditorStyle.css';
+// import './editorStyle.css';
 
 function Home({
    ...props

@@ -17,6 +17,7 @@ export const editorConfig = {
       'indent',
       'outdent',
       '|',
+      'horizontalLine',
       'imageUpload',
       'insertTable',
       '|',
@@ -30,5 +31,9 @@ export const editorConfig = {
          'mergeTableCells',
          'tableProperties',
       ],
+   },
+   image: {
+      styles: ['alignLeft', 'alignCenter', 'alignRight'],
+      toolbar: [ 'imageStyle:alignLeft', 'imageStyle:alignCenter', 'imageStyle:alignRight']
    }
 }
